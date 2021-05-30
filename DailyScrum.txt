@@ -1,0 +1,302 @@
+Daily Scrum
+
+2020/10/20 Emma
+1. Done or not since the last scrum:
+-Setup Trello and cloned repository
+2. To do until next Scrum:
+-Creating html and css files for our project
+-Start working on the html files
+3. Need assistance / figure things out
+-will learn trello and our repository
+
+2020/10/20 Fabiola
+1. Done or not since the last scrum:
+-Setup Trello and cloned repository
+2. To do until next Scrum:
+-Creating html and css files for our project
+-Submit proposal
+3. Need assistance / figure things out
+-will learn trello and our repository
+
+2020/10/20 Phil
+1. Done or not since the last scrum:
+-Setup Trello and cloned repository
+2. To do until next Scrum:
+-Creating html and css files for our project
+-Assign work to group in trello
+3. Need assistance / figure things out
+-will learn trello and our repository
+
+--------------------------------------------------------
+
+2020/10/21 Emma
+1. Done or not since the last scrum:
+-Worked on the index.html page
+-Didn't get to finish the page because merging conflict (lost all my code)
+2. To do until next Scrum:
+-Finish index.html page
+-Figure out some stuff for the navbar
+-Possibly start working on another page
+3. Need assistance / figure things out
+-Merging conflicts/stash and rebase
+
+2020/10/21 Fabiola
+1. Done or not since the last scrum:
+-Setup Trello and cloned repository
+-Creating html and css files for our project
+-Revised and submitted proposal
+-Watched tutorials about bootstrap
+-Start to play with the store.html page of the project
+2. To do until next Scrum:
+-Learn more about bootstrap
+-Work more on store.html page structure 
+-Define the cards structure to every product to be sold 
+3. Need assistance / figure things out
+- How to add my own css into bootstrap structure
+
+2020/10/21 Phil
+1. Done or not since the last scrum:
+-Layed out the about page HTML
+-Updated tasks for the team in Trello
+2. To do until next Scrum:
+-Finish About us page
+-possibly start on login page
+3. Need assistance / figure things out
+-Figure out the images on the About page
+
+-------------------------------------------------
+
+2020/10/22 Emma
+1. Done or not since the last scrum:
+-Finished the index.html page layout
+-Haven't fixed breakpoint issues yet
+2. To do until next Scrum:
+-Start working on a new page
+-Fix some issues
+3. Need assistance / figure things out
+-Need help figuring out why the carousel is not adapting to the md viewport
+
+2020/10/22 Fabiola
+1. Done or not since the last scrum:
+-Learnt how to implement bootstrap
+-Work in progress store.html structure 
+-Did NOT define the cards structure to every product to be sold 
+- Implemented and formatted carousel in store.html
+2. To do until next Scrum:
+ -Insert content on store.html page
+-Update/correct images and background
+3. Need assistance / figure things out
+- How to add my own css into bootstrap structure
+
+2020/10/22 Phil
+1. Done or not since the last scrum:
+-Added 'parallax effect' to the 'About' page
+-Created the layout for the 'Contact' page
+2. To do until next Scrum:
+-Finish adding content to About and Contact pages
+-Add the navbar/social media links to both pages
+-If enough time, start the Login page
+3. Need assistance / figure things out
+-Figured out how to create the effect for the About page
+
+------------------------------------------------------
+
+2020/10/23 Emma
+1. Done or not since the last scrum:
+-Worked on index.html page
+-Started the sign up page layout
+-Did not fix the carousel issue
+2. To do until next Scrum:
+-Work on sign up page
+-Try to fix the carousel issue
+3. Need assistance / figure things out
+-The carousel on index.html page
+
+2020/10/23 Fabiola
+1. Done or not since the last scrum:
+-(Almost) finished the store.html page
+-Defined the cards structure to every product to be sold 
+2. To do until next Scrum:
+ -Insert content on store.html page
+-Start to work on checkout page
+-To test index.html page
+3. Need assistance / figure things out
+Figure out transparent navbar on store and checkout pages
+
+2020/10/23 Phil
+1. Done or not since the last scrum:
+-added navbar and social media links to about and contact page
+2. To do until next Scrum:
+-creating the login page and adding forms
+3. Need assistance / figure things out
+-About us page bottom white border not showing
+-navbar icon font size is too small
+
+
+------------------------------------------------------
+
+2020/10/24 Emma
+1. Done or not since the last scrum:
+-Fixed some of the the responsive issues with the carousel
+-Worked on the sign up page
+-Added cart link to the nav bar
+-Didn't fix the text/button issue on the carousel yet
+2. To do until next Scrum:
+-Fix text/btn issue on the index.html carousel
+-Try and finish the sign up page for monday
+-Work on the responsive part of the sign up page
+3. Need assistance / figure things out
+-text/btn problem
+
+2020/10/24 Fabiola
+1. Done or not since the last scrum:
+-Finished the store.html page
+-Started to work on checkout page
+-To test index.html page
+2. To do until next Scrum:
+ -Work on checkout.html
+-To test aboutus.html page
+3. Need assistance / figure things out
+-Checkout or shopping cart
+
+2020/10/24 Phil
+1. Done or not since the last scrum:
+-Fixed the navbar on 'about' and 'contact' pages
+-Finished 'about page' (ready for testing)
+-Made the 'about' page responsive using @media queries
+2. To do until next Scrum:
+-Finish the 'contact' page and possibly start 'login'
+3. Need assistance / figure things out
+-Figured out that the scripts for navbar need to be in html body (causing the font/format issue)
+-Changed section height from px to vh
+
+------------------------------------------------------
+>>> Sunday NO SCRUM MEETING
+2020/10/25 Emma
+1. Done or not since the last scrum:
+-
+-
+2. To do until next Scrum:
+-
+-
+3. Need assistance / figure things out
+-
+-
+2020/10/25 Fabiola
+1. Done or not since the last scrum:
+-
+-
+2. To do until next Scrum:
+-
+-
+3. Need assistance / figure things out
+-
+-
+2020/10/25 Phil
+1. Done or not since the last scrum:
+-
+-
+2. To do until next Scrum:
+-
+-
+3. Need assistance / figure things out
+-
+-
+
+------------------------------------------------------
+
+2020/10/26 Emma
+1. Done or not since the last scrum:
+-Fixed the carousel issues
+-Didn't get to finish signup.html
+2. To do until next Scrum:
+-Work on the rest of signup.html (possibly finish it?)
+-Work on some extra features
+3. Need assistance / figure things out
+-Responsive sign up page
+-
+2020/10/26 Fabiola1. Done or not since the last scrum:-Work on checkout-html-revised store.html2. To do until next Scrum: -finalize checkout.html-test colleagues pages-fix navbar issue on store and checkout pages3. Need assistance / figure things out-fix navbar issue on store and checkout pages 
+2020/10/26 Phil
+1. Done or not since the last scrum:
+-Created 'login' and 'contact' pages
+-added password reset page
+2. To do until next Scrum:
+-Finish the look of the pages
+3. Need assistance / figure things out
+-Figure out a few details with the styles
+-Add working toast when redirected from reset page
+
+--------------------------------------------------------
+
+2020/10/27 Emma
+1. Done or not since the last scrum:
+- Finished working on both my pages
+- Added attribution in the footer section for font Awsome
+- Added favicon to our website
+2. To do until next Scrum:
+- Refactor our code
+- Test the code 
+3. Need assistance / figure things out
+- How to host on bitbucket
+
+2020/10/27 Fabiola
+1. Done or not since the last scrum:
+-Finished shopping and checkout page
+-Added a modal on checkout section
+-revised store.html
+2. To do until next Scrum:
+ -host the webpage
+-revise last details
+3. Need assistance / figure things out
+-host the webpage
+
+2020/10/27 Phil
+1. Done or not since the last scrum:
+-Rewrote the contact us page (problems with responsiveness)
+-Completed Login and reset pages (responsive)
+2. To do until next Scrum:
+-Final touches (favicon and other minor fixes
+-Testing of all pages and fixing any errors
+-(group) Test the hosting of the page for presentation
+3. Need assistance / figure things out
+-Finally understood how to use bootstrap from the start to save trouble with responsiveness later on
+-Using media queries for different min widths
+
+-------------------------------------------------------------------------------
+
+2020/10/28 Emma
+1. Done or not since the last scrum:
+- Final touches here and there
+- Final testing with the team/Debugging
+- Chose logo favicon
+- Completed our tasks on our trello board
+- Created a shared google slide project for the presentation
+- Hosted our website
+- Didn't get to refactor all the code
+2. To do until next Scrum (Presentation):
+- Work on the powerpoint
+- Practice presentation
+3. Need assistance / figure things out
+- figure out the structure of the presentation with the team
+
+2020/10/28 Fabiola
+1. Done or not since the last scrum:
+-Finished shopping and checkout page
+-Fixed last-minute issue with carousel
+-revised pages with team
+-hosted the webpage
+2. To do until next Scrum:
+ -prepare presentation
+-practice presentation
+3. Need assistance / figure things out
+- figure out presentation details
+
+2020/10/28 Philip
+1. Done or not since the last scrum:
+-Completed pages
+-Tested features and responsiveness
+-Hosted the webpage (group)
+2. To do until next Scrum:
+-Prepare and practice presentation
+3. Need assistance / figure things out
+-Figured out that the index.html for the bitbucket hosting needs to be in the root directory for the page to host properly

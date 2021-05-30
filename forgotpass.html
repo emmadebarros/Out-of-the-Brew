@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Reset Password</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5fa6c938aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="resetMainPage container jumbotron">
+        <!-- Link to account page -->
+        <form action="#" method="post" id="resetMainForm">
+        <!-- Link to account page -->
+        <div class="resetMain col-xl-12">
+            <h1>Forgot your password?</h1>
+            <!-- <div id="resetUsername" class="loginFormDiv"> -->
+                <label for="resetUsernameField">We can send you a link to reset your account password</label>
+                <input type="text" id="resetUsernameField" class="form-control" name="loginForm" placeholder="Please enter your Email Address">
+            <!-- </div> -->
+            <div id="resetSubmit">
+                <a href="#confirmPassReset" role="button" class="btn btn-lg btn-primary" data-toggle="modal" id="resetSubmitButton">Reset Password</a>
+            </div>
+        </div>
+            <!-- Modal pop-up -->
+            <div class="confirmation">
+                <div id="confirmPassReset" class="modal fade" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Send confirmation email?</h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Are you sure you want to reset your password?</p>
+                            </div>
+                            <div class="modal-footer loginModalButtons">
+                                <button type="button" class="btn btn-secondary resetModalButton" id="resetModalButtonCancel" data-dismiss="modal">Cancel</button>
+                                <a href="login.html" role="button" class="resetModalButton">Reset Password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+        $(document).ready(function(){
+            $("#confirmPassReset").modal('show');
+        });
+    </script>
+</body>
+</html>

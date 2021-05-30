@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store | Out of the Brew</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/5fa6c938aa.js" crossorigin="anonymous"></script>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+    <!-- beginning of navbar -->
+    <div class="nav_wrapper_div">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top header_nav">
+            <a class="navbar-brand header_brand" href=""><i class="fab fa-pagelines"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto header_ul">
+                    <li class="nav-item header_li"><a href="index.html" class="nav-link ">Home</a></li>
+                    <li class="header_li"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="header_li"><a href="store.html" class="nav-link active">Store</a></li>
+                    <li class="header_li"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li class="header_li"><a href="signup.html" class="nav-link">Sign Up</a></li>
+                    <li class="header_li"><a href="login.html" class="nav-link">Log In</a></li>
+                    <li class="header_li"><a href="checkout.html" class="nav-link"><i
+                                class="fas fa-cart-arrow-down nav_cart_icon"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- end of navbar -->
+
+    <!-- reference to back to the top -->
+    <a id="store-top"></a>
+
+    <!-- beginning of carousel -->
+    <div id="storeCarouselMain" class="carousel slide store-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#storeCarouselMain" data-slide-to="0" class="active"></li>
+            <li data-target="#storeCarouselMain" data-slide-to="1"></li>
+            <li data-target="#storeCarouselMain" data-slide-to="2"></li>
+            <li data-target="#storeCarouselMain" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner store-carousel-inner">
+            <div class="carousel-item store-carousel-item active">
+                <img src="./images/store-carousel-img1.jpg" class="d-block w-100 " alt="store-coffee-image">
+                <div class="carousel-caption store-carousel-caption d-none d-md-block">
+                    <p>The variety of coffees they offer is exactly what our customers are looking for.</p>
+                    <h5>Seth Mills, Director of Coffee, MistoBox</h5>
+                </div>
+            </div>
+            <div class="carousel-item store-carousel-item">
+                <img src="./images/store-carousel-img4.jpg" class="d-block w-100 " alt="store-coffee-image">
+                <div class="carousel-caption store-carousel-caption d-none d-md-block">
+                    <p>We tried coffee roasters from all over the US, and nothing beat Out of the Brew quality and
+                        taste.</p>
+                    <h5>Greg Slattery, Owners & Operators</h5>
+                </div>
+            </div>
+            <div class="carousel-item store-carousel-item">
+                <img src="./images/store-carousel-img3.jpg" class="d-block w-100 " alt="store-coffee-image">
+                <div class="carousel-caption store-carousel-caption d-none d-md-block">
+                    <p>Their attention to detail in the roasting process shows up in
+                        the high quality
+                        coffees they offer.</p>
+                    <h5>Blake Tyers, Specialty Brand Manager</h5>
+                </div>
+            </div>
+            <div class="carousel-item store-carousel-item">
+                <img src="./images/store-carousel-img2.jpg" class="d-block w-100 " alt="store-coffee-image">
+                <div class="carousel-caption store-carousel-caption d-none d-md-block">
+                    <p>They roast thoughtfully and brew skillfully. I wish I owned it.</p>
+                    <h5>Alton Brown, AB Road Eats</h5>
+                </div>
+            </div>
+
+
+
+        </div>
+        <a class="carousel-control-prev" href="#storeCarouselMain" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#storeCarouselMain" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><br>
+    <!-- end of carousel -->
+
+    <!-- beginning of grid items card  -->
+    <!-- <div class="store-container-grid"> -->
+    <div class="row store-row">
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img1.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img2.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img4.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img3.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img5.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img6.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img1.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img2.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img3.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img4.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img5.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xl-3 store-grid-item">
+            <div class="card store-card" style="min-width: 25rem;">
+                <img src="./images/store-product-img6.jpg" class="card-img-top" alt="store-product-image">
+                <div class="card-body">
+                    <h5 class="card-title">Colombian Dark Roast</h5>
+                    <p class="card-text text-justify">The Colombian dark roast is balanced and full-bodied for a
+                        bright, tasty and Colombian culture.</p>
+                    <h5>$ 6.50/100 g</h5>
+                    <div class="d-flex justify-content-between">
+                        <div class="quantity-menu">
+                            <form method="POST" action="https://www.hashemian.com/tools/form-post-tester.php">
+                                <select class="custom-select">
+                                    <option selected> Select Quantity </option>
+                                    <option value="1">100 g</option>
+                                    <option value="2">250 g</option>
+                                    <option value="3">500 g</option>
+                                    <option value="4">1000 g</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="checkout.html" class="btn btn-secondary store-buy-btn">Add to the cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of grid items card -->
+
+    <!-- beginning of go to the top button -->
+    <div class="go-to-top-btn">
+        <a href="#store-top">Top <i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- end of go to the top button -->
+
+    <!-- beginning of footer -->
+    <footer id="index_footer" class="index_footer">
+        <div class="container-fluid index_footer_div text-center">
+            <a href="https://twitter.com/" target="_blank" class="index_twitter_link">
+                <i class="fab fa-twitter index_social_icon"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="index_facebook_link">
+                <i class="fab fa-facebook-f index_social_icon"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="index_instagram_link">
+                <i class="fab fa-instagram index_social_icon"></i></a>
+            <h6 class="otb_h6">&copy; Out of the Brew co.</h6>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- bootstrap styles -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
