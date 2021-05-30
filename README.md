@@ -27,4 +27,4 @@ Here is the link to our [Trello Board](https://trello.com/b/tLsKlIU9/out-of-the-
 
 You'll also find in this repository our DailyScrum folder, that demonstrates our understanding and use of delivery methodologies used in the industry to date such as SCRUM, LEAN, AGILE and Version Control. 
 
-If you're interested in seeing all of the team's commits, take a look at our [Bitbucket repository](https://bitbucket.org/emma96/emma96.bitbucket.io/src/master/).
+If you're interested in seeing all of the team's commits and final presentation of the project, you can also take a look at our [Bitbucket repository](https://bitbucket.org/emma96/emma96.bitbucket.io/src/master/) 🔗 and [Final Presentation PowerPoint](https://docs.google.com/presentation/d/1xXLlaiT2502G74t05P-1S0BmcGHs0uUIKdL3Non8QMo/edit#slide=id.p) 🔗.
