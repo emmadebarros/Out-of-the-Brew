@@ -16,7 +16,7 @@ You can access the website by clicking typing this ➡ **emma96.bitbucket.io** i
 * Media Queries
 
 
-## Contributors:
+## Contributors
 [Philip Ranieri](https://www.linkedin.com/in/philip-ranieri/) 🔗  
 [Fabiola Faria](https://www.linkedin.com/in/ffabiola/) 🔗   
 [myself, Emma De Barros](https://www.linkedin.com/in/emma-de-barros/) 🔗
